@@ -1,0 +1,18 @@
+regtransf_Mongoid.rb es un sencillo script Ruby para llevar un registro
+de los datos enviados y recibidos por una interfaz de red y almacenarla
+en una Base de Datos MongoDB.
+
+Requerimientos: la unica dependencia es la gema
+
+    - Mongoid
+        Instalacion:
+            $ gem install mongoid
+    - Tener instalado MongoDB en su PC/Servidor.
+
+Uso: para usar el script tan solo ejecutalo
+    
+    $ ruby Requerimientos.rb
+
+Nota: este es un script Dummy sin utilidad nada mas que para mi :P
+      esta pesimamente programado y puede contener fallos que luego
+      resolvere.
