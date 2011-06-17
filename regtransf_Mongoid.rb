@@ -42,6 +42,10 @@ archivo.each_line do |line|
 		puts "En esta sesion: ".upcase
 		puts "Enviados  >>>: " + (bytestomb $tx_bytes).to_s + " MB"
 		puts "Recibidos <<<: " + (bytestomb $rx_bytes).to_s + " MB"
+	else
+    puts "Interfaz #{interface} NO esta disponible".upcase
+    #hacer que pare aqui la ejecucion en caso de que PPP0 no este disponible
+    exit
 	end
 end
 
