@@ -10,7 +10,7 @@ class Registro
     include Mongoid::Document
     field :subida, type: Float
     field :bajada, type: Float
-    field :fecha_hora, typo: String  
+    field :fecha_hora, type: String
 end
 
 def bytestomb bytes
